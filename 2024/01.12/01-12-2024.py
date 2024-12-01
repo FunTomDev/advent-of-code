@@ -21,7 +21,6 @@ with open("input.txt", "r") as file:
     distance_sum = 0
 
     for i in range(len(tab1)):
-        print(i)
         tab1, a = get_n_sorted(tab1)
         tab2, b = get_n_sorted(tab2)
         distance_sum += get_distance(a, b)
